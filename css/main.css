@@ -3320,7 +3320,10 @@ footer a:hover, footer a:focus {
 }
 
 .footer-logo {
-    display: inline-block;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 15%;
 }
 
 .footer-site-logo {
@@ -3331,11 +3334,10 @@ footer a:hover, footer a:focus {
 .footer-social {
     list-style: none;
     margin-top: 3rem;
-    margin-left: 0;
     font-family: "montserrat-regular", sans-serif;
     font-size: 1.3rem;
     text-transform: uppercase;
-    letter-spacing: .3rem;
+    letter-spacing: .4rem;
 }
 
 .footer-social:after {
@@ -3347,15 +3349,15 @@ footer a:hover, footer a:focus {
 .footer-social li {
     display: inline-block;
     padding-left: 0;
-    margin-right: .9rem;
-    line-height: 3.9rem;
+    margin-right: 6rem;
+    line-height: 4rem;
     vertical-align: middle;
 }
 
 .footer-social li::after {
     content: "|";
     color: rgba(255, 255, 255, 0.15);
-    padding-left: .9rem;
+    padding-left: 3rem;
 }
 
 .footer-social li i {
